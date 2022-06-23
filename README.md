@@ -59,12 +59,3 @@ infrastructure resources (ex. Lambda, SES configuration, etc.) and
 permissions (IAM policies, roles, etc.).
 b. The template (T1) should take the prediction endpoint (E1) as a
 stack parameter.
-Acceptance criteria:
-1. TAs should be able to email the unique email address submitted as part of
-the assignment and they should be able to get reasonable predictions
-(spam/not spam) for the emails they send.
-2. TAs should be able to stand up the CloudFormation template (T1) within a
-separate account, using their own prediction endpoint (E1’), and successfully
-test the system.
-a. This also assumes that you provide the TAs with the code for the Lambda
-function (LF1).
